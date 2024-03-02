@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="proj-library",
+    name="projlibrary",
     version="0.0.1",
     author="igortrifan",
     author_email="trifan.igor.xd@gmail.com",
@@ -14,5 +14,5 @@ setup(
         "Operating System :: OS Independent",
     ],
 
-    entry_points={"console_scripts": ["proj-library=proj-library.main:download"]},
+    entry_points={"console_scripts": ["projlibrary = projlibrary.main:main"]},
 )
